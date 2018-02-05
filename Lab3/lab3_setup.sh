@@ -1,26 +1,9 @@
 #!/bin/bash 
 
-
-printNice(){
-#Array of nice things to say! 
-declare -a niceThings=("Very nice, great success!"
-"A+ effort"
-"Good job today"
-"Nice shirt"
-"You're a cupcake in a world of muffins"
-"GOOD JOB!"
-"You can do it! Do the thing!" 
-);
-
-echo "Here's a randomly chosen encouraging message, chosen just for you:"
-selectedexpression=${niceThings[$RANDOM % ${#niceThings[@]} ]}
-echo $selectedexpression
-}
-
 cd ~/Desktop/ConsGen2018/Lab3 
 
 #Edit bash profile 
-echo "Modifying your .bash_profile!"
+echo "Modifying your .bash_profile..."
 echo "Here's a cat I made for you:" 
 cat programs/misc/niceCat.txt
 echo ""
@@ -31,6 +14,26 @@ echo "Loading modified .bash_profile..."
 echo ""
 source ~/.bash_profile
 
-printNice
+#Install programs 
+echo "Installing programs..."
+if [ -d ~/local ]; then
+  true
+else
+  mkdir ~/local
+fi
 
+if [ -d ~/local/src ]; then 
+  cp programs/src/* ~/local/src/.
+else
+  mkdir ~/local/src
+  cp programs/src/* ~/local/src/.
+fi
 
+if [ -d ~/local/bin ]; then
+  cp programs/bin/* ~/local/bin/.
+else
+  mkdir ~/local/src
+  cp programs/bin/* ~/local/bin/.
+fi
+
+echo "Programs should be installed. To test, type \"muscle\", if your computer returns an error (\"Command not found\"), please ask your TA for help."
