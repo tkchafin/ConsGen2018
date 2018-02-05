@@ -1,0 +1,15 @@
+
+#START_CONSGEN
+#Below are modifications to this account's bash_profile made by the Conservation Genetics 2018 class
+
+#modify path
+export PATH=$PATH:~/local/bin
+
+#set colored outputs for LS
+export CLICOLOR=1
+alias ls='ls --color'
+export LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.rpm=90'
+
+#test
+
+#END_CONSGEN
