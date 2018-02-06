@@ -10,7 +10,7 @@ Repository for the Spring 2018 course in Conservation Genetics (BIOL-5174) at th
 | 4 | 2/14/2018 | Phylogeography: AMOVA, Fst, and Haplotype Networks | DNAsp (Tajima's D, measures of diversity), Arlequin (AMOVA, Fst), PopArt (Haplotype Networks) |
 | 5 | 2/21/2018 | Phylogenetics I: Maximum Parsimony and Distance Methods | MEGA or PAUP (Neighbor-Joining, UPGMA, MP) | 
 | 6 | 2/28/2018 | Phylogenetics II: Maximum Likelihood and Models of Sequence Evolution | JModelTest (AIC, BIC, hLRT), PhyML, RAxML |
-| 7 | 3/7/2018 | Phylogenetics III: Intro to Bayesian Methods and MCMC | MrBayes | 
+| 7 | 3/7/2018 | Phylogenetics III: Intro to Bayesian Methods and MCMC | MrBayes (MCMCMC), Tracer | 
 | 8 | 3/14/2018 | Coalescent Theory and Skyline Methods | BEAST (Bayesian Skyline Plots | 
 | 9 | 3/21/2018 | Microsatellites I: Genetic diversity and distance | Genepop (HWE, LD), GenAlEx (various distance measures, Mantel test for IBD) | 
 | 10 | 3/28/2018 | Microsatellites II: Population Structure and Assignment Tests | STRUCTURE, Principle Components Analysis (R?) | 
@@ -18,7 +18,6 @@ Repository for the Spring 2018 course in Conservation Genetics (BIOL-5174) at th
 | 12 | 4/11/2018 | RADseq I: Pre-processing and Assembling Illumina Data | FastQC, iPyRAD or pyRAD, STACKS | 
 | 13 | 4/18/2018 | RADseq II: Detecting hybridization and introgression | Comp-D (ABBA/BABA test), R package Introgress (h-index, genomic cline analysis)| 
 | 14 | 4/25/2018 | RADseq III: Signatures of selection using outlier analysis | BayeScan, FSTAT, BayeEnv? | 
-| 15 | 5/2/2018 | OPTION 1- RADseq IV: Species tree methods and the multi-species coalescent | BEAST, SNAPP, MP-EST | 
-| 15 | 5/2/2018 | Option 2: RADseq IV: Multi-locus clines and landscape genetics | GeneLand, R, maybe some sort of causal modeling | 
-| 15 | 5/2/2018 | Option 3: Species delimitation | ABGD, clustering, GMYC, PTP, Bayes Factor Delimitation | 
+| 15 | 5/2/2018 | RADseq IV: Multi-locus clines and landscape genetics | GeneLand, R, maybe some sort of causal modeling | 
+
 
