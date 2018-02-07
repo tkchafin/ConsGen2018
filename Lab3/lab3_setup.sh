@@ -10,28 +10,18 @@ cat ./bash_profile_template.txt > ~/.bash_profile
 
 echo "Loading modified .bash_profile..."
 echo ""
-source ~/.bash_profile
+
 
 #Install programs 
 echo "Installing programs..."
-if [ -d ~/local ]; then
-  true
-else
-  mkdir ~/local
-fi
+mkdir -p ~/local
+mkdir -p ~/local/src
+cp programs/src/* ~/local/src/
 
-if [ -d ~/local/src ]; then 
-  cp programs/src/* ~/local/src/.
-else
-  mkdir ~/local/src
-  cp programs/src/* ~/local/src/.
-fi
+mkdir -p ~/local/bin
+cp programs/bin/* ~/local/bin/
 
-if [ -d ~/local/bin ]; then
-  cp programs/bin/* ~/local/bin/.
-else
-  mkdir ~/local/src
-  cp programs/bin/* ~/local/bin/.
-fi
-
-echo "Programs should be installed. To test, type \"muscle\", if your computer returns an error (\"Command not found\"), please ask your TA for help."
+echo ""
+echo "###IMPORTANT: Now type \"source ~/.bash_profile\" exactly to load these changes.###"
+echo ""
+echo "To test if it worked correctly, type \"muscle\", if your computer returns an error (\"Command not found\"), please ask your TA for help."
