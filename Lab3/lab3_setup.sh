@@ -1,6 +1,4 @@
-#!/bin/bash 
-
-cd ~/Desktop/ConsGen2018/Lab3 
+#!/bin/bash  
 
 #Edit bash profile 
 echo "Modifying your .bash_profile..."
