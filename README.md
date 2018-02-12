@@ -7,7 +7,7 @@ Repository for the Spring 2018 course in Conservation Genetics (BIOL-5174) at th
 | 1         | 1/31/2018 | Intro to Biological Computing | Terminal, Bash |
 | 2         | 1/31/2018    |  Sanger Sequencing and Sequence Editing | Geneious (proprietary) |
 | 3         | 2/7/2018    | Sequence Alignment and Homology |ClustalW/X, Clustal-Omega, MUSCLE, Mesquite|
-| 4 | 2/14/2018 | Phylogeography: AMOVA, Fst, and Haplotype Networks | DNAsp (Tajima's D, measures of diversity), Arlequin (AMOVA, Fst), PopArt (Haplotype Networks) |
+| 4 | 2/14/2018 | Phylogeography: AMOVA, Fst, and Haplotype Networks | Various R packages (adegenet, poppr, pegas, hierfstat), PopArt (Haplotype Networks) |
 | 5 | 2/21/2018 | Phylogenetics I: Maximum Parsimony and Distance Methods | MEGA or PAUP (Neighbor-Joining, UPGMA, MP) | 
 | 6 | 2/28/2018 | Phylogenetics II: Maximum Likelihood and Models of Sequence Evolution | JModelTest (AIC, BIC, hLRT), PhyML, RAxML |
 | 7 | 3/7/2018 | Phylogenetics III: Intro to Bayesian Methods and MCMC | MrBayes (MCMCMC), Tracer | 
