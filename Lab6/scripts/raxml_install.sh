@@ -1,5 +1,7 @@
 #! /bin/bash
 
+mkdir -p $HOME/local $HOME/local/src $HOME/local/bin
+
 #remove any existing files
 rm -r $HOME/local/src/raxml
 rm $HOME/local/bin/raxml
