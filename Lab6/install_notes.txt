@@ -1,0 +1,25 @@
+# These are installation instructions for Conservation Genetics Spring 2018 Lab 6
+
+
+#Download anaconda installer 
+#Note the -O is an uppercase letter "o", not a zero. 
+curl -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+
+#Run the Anaconda installer 
+bash Miniconda3-latest-MacOSX-x86_64.sh -b -p ~/miniconda
+
+#Put Anaconda environment into your PATH 
+echo 'export PATH=~/miniconda/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
+
+#Install PHYML and dependencies 
+conda install -c bioconda -c conda-forge phyml
+
+#When asked if you are sure, type 'yes' 
+
+#install raxml 
+
+#install figtree 
+
+
+
