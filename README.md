@@ -10,7 +10,7 @@ Repository for the Spring 2018 course in Conservation Genetics (BIOL-5174) at th
 | 4 | 2/14/2018 | Phylogeography: AMOVA, Fst, and Haplotype Networks | Various R packages (adegenet, poppr, pegas, hierfstat), PopArt (Haplotype Networks) |
 | 5 | 2/21/2018 | Phylogenetics I: Maximum Parsimony and Distance Methods | MEGA or PAUP (Neighbor-Joining, UPGMA, MP) | 
 | 6 | 2/28/2018 | Phylogenetics II: Maximum Likelihood and Models of Sequence Evolution | JModelTest (AIC, BIC, hLRT), PhyML, RAxML |
-| 7 | 3/7/2018 | Phylogenetics III: Intro to Bayesian Methods and MCMC | MrBayes (MCMCMC), Tracer | 
+| 7 | 3/7/2018 | Phylogenetics III: Intro to Bayesian Methods and MCMC | MrBayes (MCMCMC), iMCMC | 
 | 8 | 3/14/2018 | Coalescent Theory and Skyline Methods | BEAST (Bayesian Skyline Plots | 
 | 9 | 3/21/2018 | Microsatellites I: Genetic diversity and distance | Genepop (HWE, LD), GenAlEx (various distance measures, Mantel test for IBD) | 
 | 10 | 3/28/2018 | Microsatellites II: Population Structure and Assignment Tests | STRUCTURE, Principle Components Analysis (R?) | 
