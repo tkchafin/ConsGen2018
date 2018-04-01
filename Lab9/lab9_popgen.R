@@ -1,5 +1,9 @@
+#Set your working dirsctory
+setwd() #fill in the path to your Lab9 files
+
+
 #Installing required packages 
-install.packages(c("adegenet", "poppr", "vegan", "pegas", "lattice", "mmod", "ggplot2", "reshape2", "plotrix"))
+install.packages(c("adegenet", "poppr", "vegan", "pegas", "lattice", "mmod", "ggplot2", "reshape2", "plotrix", "diveRsity"))
 
 ########################## Part 1 ############################
 #Understanding our data
@@ -130,7 +134,7 @@ corPlot("bhs_msat.gen")
 #Answer question 8
 
 #Next, we'll calculate divergence PAIRWISE between populations:
-pw_diff<-diffCalc("t", pairwise=T)
+pw_diff<-diffCalc("bhs_msat.gen", pairwise=T)
 
 #Let's plot the pairwise results for Nei's D:
 levelplot(pw_diff$pairwise$D, xlab="Pop", ylab="Pop", main="Genetic Distance")
